@@ -162,8 +162,9 @@ p iframe {
     padding: .6rem 0rem;
     color: #555;
     text-transform: uppercase;
-    font-size: .92rem;
+    font-size: .95rem;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .main_menu ul li a span {
@@ -266,7 +267,7 @@ p iframe {
 }
 
 .section_padding {
-    padding: 90px 0;
+    padding: 60px 0;
 }
 
 .section_padding header h2 {
@@ -366,7 +367,7 @@ p iframe {
 
 .apresentation_text {
     flex-basis: calc(50%);
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .apresentation_text h2 {
@@ -377,14 +378,14 @@ p iframe {
 }
 
 .apresentation_text p {
-    font-size: .9rem;
-    line-height: 21px;
+    font-size: .98rem;
+    line-height: 28px;
     margin: 10px 0;
 }
 
 .apresentatiom_img {
     flex-basis: 45%;
-    min-height: 450px;
+    min-height: 400px;
     position: relative;
     overflow: hidden;
 }
@@ -392,6 +393,7 @@ p iframe {
 .apresentatiom_img img {
     width: 90%;
     margin: 20px 0;
+    border: 15px solid #666
 }
 
 .who_are_text {
@@ -407,7 +409,7 @@ p iframe {
 }
 
 .who_are_text p {
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     line-height: 28px;
     color: #000;
 }
@@ -493,6 +495,10 @@ p iframe {
     padding: 15px
 }
 
+.services_body article ul {
+    margin-left: 20px;
+}
+
 .partner_clientes header {
     flex-basis: 100%;
     text-align: center;
@@ -507,6 +513,7 @@ p iframe {
 
 .partner_clientes div {
     flex-basis: 40%;
+    padding: 40px;
 }
 
 .partner_clientes.ps_multi div {
@@ -563,15 +570,16 @@ p.cento {
     flex-basis: 50%;
     padding-top: 20px;
 }
-.courses_page__text h2{
+
+.courses_page__text h2 {
     margin-bottom: 20px;
-    font-size:1.8rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
 }
-.courses_page__text p{
+
+.courses_page__text p {
     font-size: 1.22rem;
     margin-bottom: 25px;
-
 }
 
 .courses_form form {
@@ -621,7 +629,7 @@ footer {
 }
 
 footer .container {
-    justify-content:center;
+    justify-content: center;
 }
 
 .not_found {
@@ -638,7 +646,8 @@ footer .container {
     font-size: 2rem;
     line-height: 3rem;
 }
-.apresentatiom_img h2{
+
+.apresentatiom_img h2 {
     text-transform: uppercase;
 }
 
@@ -650,33 +659,56 @@ footer .container {
     margin-top: 20px;
     display: inline-block;
 }
-.section_padding .title{
+
+.section_padding .title {
     text-transform: uppercase;
-    padding-bottom: 10px;
+    padding-bottom: 6px;
     width: 100%;
-    border-bottom: 1px solid #444;
-    margin-bottom: 20px;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #fff;
+    text-shadow: 0 2px 2px #000;
 }
-.tab_li{
+
+.port_section {
+    background-color: #068795;
+    min-height: 500px;
+}
+
+.tab_li {
     display: flex;
-    margin: 15px 0;
     flex-basis: 100%;
+    background-color: #fff;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
-.tab_li li{
-    margin-right: 15px;
-    padding:3px 15px 3px 0px;
-    border-right: 1px solid #444;
-}
-.tab_li li span{
+
+.tab_li li {
+    padding: 10px 15px;
+    flex: 1 1 auto;
     cursor: pointer;
 }
-.tab_li li.active span{
-    padding-bottom: 2px;
-    border-bottom: 1px solid #444;
+
+.tab_li li.active {
+    background-color: #333;
+    color: #fff;
 }
-.portfolio article{
-    flex-basis: 31%;
-    margin: 2% 0.8%;
+
+.tab_li li span {
+    padding-right: 8px;
+    font-size: 1.10rem;
+}
+
+.portfolio article {
+    flex-basis: 32%;
+    margin: 2% 2% 0% 0;
     overflow: hidden;
     padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 14px 8px rgba(0, 0, 0, .2);
+}
+
+.portfolio article:nth-of-type(3n + 0) {
+    margin-right: 0;
 }

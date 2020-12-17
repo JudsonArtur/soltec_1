@@ -9,12 +9,12 @@ $(document).ready(function() {
             $('.dash_menu').removeClass('active');
         }
     });
-    $('.tab_li span').on('click', function () {
-         $('.tab_li li').removeClass('active');
-         $(this).parent('li').addClass('active');
-         let y = $(this).data('target');
-         $('.art').css('display','none');
-         $('.'+y).css('display','flex');
+    $('.tab_li li').on('click', function() {
+        $('.tab_li li').removeClass('active');
+        $(this).addClass('active');
+        let y = $(this).data('target');
+        $('.art').css('display', 'none');
+        $('.' + y).css('display', 'flex');
     });
 
     $('.menu_hamburguer').on('click', function(e) {

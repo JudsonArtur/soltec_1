@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solunave - A solução do seu navio</title>
+    <title>Soltec - Tecnologia em primeiro lugar </title>
     <link
         href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&family=Poppins:wght@300&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
@@ -74,14 +74,7 @@
 
                 <p>Quer seja um cliente, um possível cliente, um candidato ou apenas alguém interessado em Tecnologia,
                     esperamos que possa desfrutar desta sua visita e encontrar neste espaço ideias e informações úteis
-                    que
-                    possam contribuir para a concretização dos seus objectivos.</p>
-
-                <p>Dedicámos o nosso tempo, paixão e energia na criação deste website para vos oferecer algo novo e
-                    inovador. Estaremos continuamente a actualizar e melhorar o site com as melhores práticas e técnicas
-                    do
-                    mercado, sugiro-lhe assim (e convido-o/a) que nos visite regularmente e que se sinta à vontade para
-                    contribuir com as suas ideias.</p>
+                    que possam contribuir para a concretização dos seus objectivos.</p>
 
                 <p>A SOLTEC foi criada para responder às necessidades dos nossos clientes, e para desenvolver sistemas
                     web
@@ -95,11 +88,6 @@
                     abordagem, apoiada por pesquisa e desenvolvimento contínuos, constitui a base operacional da SOLTEC.
                 </p>
 
-                <p>Agradecemos, mais uma vez, a sua visita ao nosso website. Esperamos que o ajude a entender quem
-                    somos, a
-                    razão de existirmos e a paixão que colocamos nos nossos projectos para melhor servir os nossos
-                    clientes.</p>
-
                 <p>Teremos todo o gosto em ter brevemente notícias suas,</p>
 
                 <p>Atentamente,</p>
@@ -107,7 +95,9 @@
             </div>
 
         </div>
-        <div class="container" style="padding:80px 0;">
+    </section>
+    <section class="section_padding" style="background-color:#f8f8f8">
+        <div class="container">
             <div class="who_are_text">
                 <h2>Quem Somos</h2>
                 <p>
@@ -146,7 +136,7 @@
 
                 </p>
             </article>
-            <article class="enterprise_items">
+            <article class="enterprise_items" style="padding-left: 80px;">
                 <h2>Valores</h2>
                 <ul>
                     <li><span class="ion-ios-play"></span>
@@ -265,9 +255,9 @@
             </div>
         </div>
     </section>
-    <section class="partner_clientes" id="contacto">
+    <section class="section_padding partner_clientes" id="contacto" style="background:#f0f2f2">
         <div class="container">
-            <header>
+            <header style="margin-bottom: 20px;">
                 <h2>Nossas Marcas</h2>
 
             </header>
@@ -278,7 +268,7 @@
                 <img src="images/havetime.png" alt="">
             </div>
     </section>
-    <section class="partner_clientes ps_multi" id="contacto">
+    <section class="section_padding partner_clientes ps_multi" id="contacto">
         <div class="container">
             <header>
                 <h2>Nossas Parceiros</h2>
@@ -287,7 +277,7 @@
                 </p>
             </header>
             <div>
-                <a href="#"> <img src="images/logo_oracle.jpg" alt=""></a>
+                <a href="#"> <img src="images/logo_oracle.png" alt=""></a>
             </div>
             <div>
                 <a href="#"> <img src="images/logo_microsoft.jpg" alt=""></a>
@@ -296,24 +286,25 @@
                 <a href="#"><img src="images/logo_IBM.png" alt=""></a>
             </div>
     </section>
-    <section class="section_padding">
+    <section class="section_padding port_section">
         <div class="container">
             <h2 class="title">Portifólio</h2>
         </div>
         <div class="container portfolio">
-           <ul class="tab_li">
-               <li class="active"><span data-target="all">Todos</span></li>
-               <li><span data-target="site">Website</span></li>
-               <li><span data-target="apps">Aplicativo</span></li>
-               <li><span data-target="system">Sistema de Gestão Escolar</span></li>
-               <li><span data-target="seo">Marketing e Publicidade</span></li>
-           </ul>
-           <article class="art all site">
-               <a>
-                   <img src="images/logo_type.png">
-               </a>
-           </article>
-            <article class="art all app" >
+            <ul class="tab_li">
+                <li data-target="all" class="active"><span class="ion-md-apps"></span><span>Todos</span></li>
+                <li data-target="site"><span class="ion-logo-html5"></span><span>Website</span></li>
+                <li data-target="apps"><span class="ion-ios-phone-portrait"></span><span>Aplicativos</span></li>
+                <li data-target="system"><span class="ion-ios-desktop"></span><span>Sistema de Gestão Escolar</span>
+                </li>
+                <li data-target="seo"><span class="ion-md-megaphone"></span><span>Marketing e Publicidade</span></li>
+            </ul>
+            <article class="art all site">
+                <a>
+                    <img src="images/logo_type.png">
+                </a>
+            </article>
+            <article class="art all app">
                 <a>
                     <img src="images/mama.png">
                 </a>
@@ -330,34 +321,34 @@
     </section>
     <section class="section_padding course_page ">
         <div class="container">
-        <div class="courses_page__text">
-            <h2>Contactos</h2>
-            <p>info@soltec.ao</p>
-            <p>comercial@soltec.ao</p>
-            <p>suporte@soltec.ao</p>
-            <p>
-                Telef: +244 945 989 920
-            </p>
-            <p>Whatsapp: +244 939 576 934
-            </p>
+            <div class="courses_page__text">
+                <h2>Contactos</h2>
+                <p>info@soltec.ao</p>
+                <p>comercial@soltec.ao</p>
+                <p>suporte@soltec.ao</p>
+                <p>
+                    Telef: +244 945 989 920
+                </p>
+                <p>Whatsapp: +244 939 576 934
+                </p>
 
-        </div>
-        <div class="courses_form">
-            <h2>Entre em contacto</h2>
-            <p class="rsp"></p>
-            <p class="rsp_error"></p>
-            <form>
-                <input type="text" class="name" placeholder="Nome Completo">
-                <input type="email" placeholder="Email" class="email" required>
-                <input type="text" placeholder="Telefone" class="telefone">
-                <textarea rows="7" class="message"></textarea>
-                <button>
-                    <span class="ion-ios-mail"></span>&nbsp;
-                    Enviar
-                </button>
-                <img src="images/load.gif" title="loading">
-            </form>
-        </div>
+            </div>
+            <div class="courses_form">
+                <h2>Entre em contacto</h2>
+                <p class="rsp"></p>
+                <p class="rsp_error"></p>
+                <form>
+                    <input type="text" class="name" placeholder="Nome Completo">
+                    <input type="email" placeholder="Email" class="email" required>
+                    <input type="text" placeholder="Telefone" class="telefone">
+                    <textarea rows="7" class="message"></textarea>
+                    <button>
+                        <span class="ion-ios-mail"></span>&nbsp;
+                        Enviar
+                    </button>
+                    <img src="images/load.gif" title="loading">
+                </form>
+            </div>
         </div>
     </section>
 

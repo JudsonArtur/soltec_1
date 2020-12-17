@@ -2,7 +2,7 @@
 
 <footer>
     <div class="container">
-         <p style="color:#fff; font-size: 1.35rem"> &copy;2020, Soltec Todos direitos reservados. </p>
+         <p style="color:#fff; font-size: 1.15rem"> &copy;2020, Soltec Todos direitos reservados. </p>
     </div>
 
 </footer>
