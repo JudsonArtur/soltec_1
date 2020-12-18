@@ -1,9 +1,12 @@
-@media(max-width:1300px) {
-    .container {
-        width: 85%;
-    }
+@media(max-width:1480px) {
     .numbers_body {
         width: 90%;
+    }
+}
+
+@media(max-width:1360px) {
+    .container {
+        width: 85%;
     }
     .courses_page__text {
         flex-basis: 50%;
@@ -13,16 +16,20 @@
     }
 }
 
-@media(max-width:1150px) {
+@media(max-width:1250px) {
     .container {
         width: 95%;
-    }
-    .services header {
-        flex-basis: 100%;
     }
     .services_body {
         flex-basis: 100%;
         padding: 10px;
+    }
+    .numbers_body li {
+        padding: 6px 20px;
+    }
+    .banner .container>div {
+        width: 80%;
+        position: relative;
     }
 }
 
@@ -74,17 +81,6 @@
         font-size: 2.5rem;
         cursor: pointer;
     }
-    .habilty article {
-        flex-basis: calc(46% - 30px);
-    }
-    .footer_items {
-        width: 24%;
-        margin-bottom: 20px;
-    }
-    .footer_items ul {
-        justify-content: center;
-        padding-left: 20px;
-    }
     .courses_form {
         width: 50%;
     }
@@ -117,18 +113,31 @@
     .numbers_body .numbers_items {
         width: 25%;
     }
+    .tab_li {
+        flex-wrap: wrap;
+    }
+    .tab_li li {
+        padding: 10px 15px;
+        flex: 0 0 50%;
+        cursor: pointer;
+        border-bottom: 1px solid #888;
+        border-right: 1px solid #888;
+    }
+    .portfolio article {
+        flex-basis: 48%;
+        margin: 1% !important;
+    }
 }
 
 @media( max-width: 920px) {
-    .partner_clientes ul li {
-        width: 23%;
-        text-align: center;
-        margin: 2% .56%;
-    }
     .apresentation_text,
     .apresentatiom_img {
         flex-basis: 80%;
         margin: 10px auto;
+        padding: 10px;
+    }
+    .apresentatiom_img img {
+        width: 100%;
     }
     .courses_page__text {
         flex-basis: 100%;
@@ -136,6 +145,22 @@
     .courses_form {
         flex-basis: 80%;
         margin: 30px auto;
+    }
+    .who_are_text {
+        flex-basis: 80%;
+        margin: auto;
+        padding-right: 0;
+    }
+    .who_image {
+        flex-basis: 46%;
+        margin: 30px auto;
+    }
+    .partner_clientes div {
+        flex-basis: 50%;
+        padding: 20px;
+    }
+    .partner_clientes.ps_multi div {
+        flex-basis: 50%;
     }
 }
 
@@ -147,51 +172,22 @@
         width: 100%;
         padding: 40px 20px;
     }
-    .partner_clientes ul li a img {
-        width: 60%;
-    }
     .footer_items {
         width: 45%;
-    }
-    .depoiments_body .depoiments_item {
-        width: 88%;
-    }
-    .courses_section_item.services {
-        width: 48%;
     }
     .courses_page__text {
         width: 80%;
         padding: 20px;
         margin: auto;
     }
-    .depoiment_body {
-        width: 80%;
+    .numbers_body li {
+        padding: 6px 10px !important;
     }
 }
 
 @media(max-width:750px) {
-    .depoiment_body {
-        width: 100%;
-    }
-    .habilty article {
-        flex-basis: calc(100% - 30px);
-    }
-    .banner_text strong {
-        font-size: 2.18rem;
-        line-height: 46px;
-    }
     .logo a {
         font-size: 1rem;
-    }
-    .footer_items {
-        width: 100% !important;
-        justify-content: center;
-    }
-    .depoiments_body .depoiments_item {
-        width: 96%;
-    }
-    .partner_clientes ul li {
-        width: 32%;
     }
     .back_orage strong {
         font-size: 2rem;
@@ -202,8 +198,29 @@
     .enterprise_items {
         flex-basis: 98%;
         margin: 20px auto;
+        padding: 15px !important;
     }
     .services_body article {
+        flex-basis: 100%;
+    }
+    .numbers_body li {
+        flex: 0 0 50%;
+        border-bottom: 1px solid #888
+    }
+    .who_are_text {
+        flex-basis: 100%;
+        margin: auto;
+        padding: 15px !important;
+    }
+    .who_image {
+        flex-basis: 86%;
+        margin: 30px auto;
+    }
+    .partner_clientes div {
+        flex-basis: 100%;
+        padding: 40px;
+    }
+    .partner_clientes.ps_multi div {
         flex-basis: 100%;
     }
 }
@@ -220,6 +237,25 @@
         flex-basis: 100%;
         margin: 10px auto;
     }
+    .banner_text div div a:first-of-type {
+        margin-right: 0px;
+    }
+    .banner_text div div a,
+    .more_view {
+        padding: 14px;
+        margin-top: 15px;
+        display: block;
+    }
+    .partner_clientes div {
+        flex-basis: 100%;
+        padding: 20px;
+    }
+    .tab_li li {
+        flex: 0 0 100%;
+    }
+    .portfolio article {
+        flex-basis: 98%;
+    }
 }
 
 @media(max-width:500px) {
@@ -227,21 +263,34 @@
         flex-basis: 50%;
         margin-bottom: 1px;
     }
+    .banner .container {
+        align-items: flex-start;
+        margin-top: 80px;
+    }
+    .banner_text h2 {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+    .apresentatiom_img {
+        margin-top: 50px;
+    }
     .foto {
         width: 100%;
         height: 240px;
-    }
-    .partner_clientes ul li {
-        width: 48%;
     }
     .courses_form {
         flex-basis: 100%;
         margin: 30px auto;
     }
+    .numbers_body li {
+        flex: 0 0 100%;
+        border-bottom: 1px solid #888;
+        padding: 10px !important;
+    }
 }
 
 @media(max-width:400px) {
-    .partner_clientes ul li {
-        width: 98%;
+    .apresentatiom_img {
+        margin-top: 70px;
     }
 }

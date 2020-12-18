@@ -1,3 +1,4 @@
+<?php $URL = "https://localhost/Personal/soltec_1/" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,9 +9,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&family=Poppins:wght@300&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="<?=$URL?>css/ionicons.min.css">
+    <link rel="stylesheet" href="<?=$URL?>css/style.css">
+    <link rel="stylesheet" href="<?=$URL?>css/media.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
 
         </div>
         <div class="r" style="width:100%">
-            <div class="banner_item" style="background-image:url(images/tela.jpg); ">
+            <div class="banner_item" style="background-image:url(<?=$URL?>images/tela.jpg); ">
                 <div class="container">
                     <div class="banner_text">
                         <div>
@@ -30,43 +31,41 @@
                                 alinhadas ao seu negócio.
                             </h2>
                             <div style="display: inline-block; margin-top:15px; padding:20px 0;">
-                                <a onclick="services()" class="btn btn_default">Mais sobre a Soltec</a>
-                                <a onclick="contacto()" class="btn btn_altern"> Nossas Soluções</a>
+                                <a onclick="contacto()" class="btn btn_default">Mais sobre a Soltec</a>
+                                <a onclick="services()" class="btn btn_altern"> Nossas Soluções</a>
                             </div>
                         </div>
                     </div>
+                    <ul class="numbers_body">
+                        <li><sapn>Projectos em Carteira</sapn></li>
+                        <li>
+                            <span>Fase de briefing</span>
+                            <strong>15</strong>
 
+                        </li>
+                        <li>
+                            <span>Fase de Desenvolvimento</span>
+                            <strong>4</strong>
+
+                        </li>
+                        <li>
+                            <span>Fase de Teste</span>
+                            <strong>2</strong>
+
+                        </li>
+
+                    </ul>
                 </div>
             </div>
 
         </div>
     </section>
-    <div class="numbers container">
-        <ul class="numbers_body">
-            <li>Projectos em Carteira:</li>
-            <li>
-                <span>Fase de briefing</span>
-                <strong>15</strong>
 
-            </li>
-            <li>
-                <span>Fase de Desenvolvimento</span>
-                <strong>4</strong>
-
-            </li>
-            <li>
-                <span>Fase de Teste</span>
-                <strong>2</strong>
-
-            </li>
-
-        </ul>
-    </div>
-    <section class="section_padding apresentation" id="somos">
+    <section class="section_padding apresentation">
         <div class="container">
             <div class="apresentatiom_img">
                 <h2>Mensagem do CEO</h2>
-                <img src="images/dario.jpg">
+                <img src="<?=$URL?>images/dario.jpg">
 
             </div>
             <div class="apresentation_text">
@@ -96,7 +95,7 @@
 
         </div>
     </section>
-    <section class="section_padding" style="background-color:#f8f8f8">
+    <section class="section_padding" style="background-color:#f8f8f8" id="somos">
         <div class="container">
             <div class="who_are_text">
                 <h2>Quem Somos</h2>
@@ -110,10 +109,10 @@
                 </p>
             </div>
             <div class="who_image">
-                <img src="images/logo_2.png" alt="">
+                <img src="<?=$URL?>images/logo_2.png" alt="">
             </div>
         </div>
-        <div class="container">
+        <div class="container" style="padding-top:90px">
             <article class="enterprise_items">
                 <h2>nosso Perfil</h2>
                 <p>A SOLTEC é uma Consultoria em Informática com foco em soluções tecnológicas.
@@ -161,7 +160,7 @@
         <div class="container">
             <header>
 
-                <h2>Nossas Soluções</h2>
+                <h2>Nossos Soluções</h2>
                 <p>Transformando os problemas em soluções tecnológicas.
                 </p>
             </header>
@@ -208,10 +207,6 @@
                         <li> Melhoria na compreensão do funcionamento dos processos de negócio e de decisão por parte
                             dos
                             colaboradores da organização.</li>
-
-
-
-
                     </ul>
                 </article>
                 <article>
@@ -255,71 +250,68 @@
             </div>
         </div>
     </section>
-    <section class="section_padding partner_clientes" id="contacto" style="background:#f0f2f2">
+    <section class="section_padding partner_clientes" id="marcas" style="background:#f0f2f2">
         <div class="container">
             <header style="margin-bottom: 20px;">
                 <h2>Nossas Marcas</h2>
 
             </header>
             <div>
-                <img src="images/dipanda.png" alt="">
+                <img src="<?=$URL?>images/dipanda.png" alt="">
             </div>
             <div>
-                <img src="images/havetime.png" alt="">
+                <img src="<?=$URL?>images/havetime.png" alt="">
             </div>
     </section>
-    <section class="section_padding partner_clientes ps_multi" id="contacto">
+    <section class="section_padding partner_clientes ps_multi" id="parceiros">
         <div class="container">
             <header>
-                <h2>Nossas Parceiros</h2>
+                <h2>Nossos Parceiros</h2>
                 <p>A SOLTEC entende que o sucesso de qualquer empresa não se faz sozinho e que o trabalho em parceria é
                     fundamental para alavancar resultados positivos.
                 </p>
             </header>
             <div>
-                <a href="#"> <img src="images/logo_oracle.png" alt=""></a>
+                <a href="#"> <img src="<?=$URL?>images/logo_oracle.png" alt=""></a>
             </div>
             <div>
-                <a href="#"> <img src="images/logo_microsoft.jpg" alt=""></a>
+                <a href="#"> <img src="<?=$URL?>images/logo_microsoft.jpg" alt=""></a>
             </div>
             <div>
-                <a href="#"><img src="images/logo_IBM.png" alt=""></a>
+                <a href="#"><img src="<?=$URL?>images/logo_IBM.png" alt=""></a>
             </div>
     </section>
-    <section class="section_padding port_section">
+    <section class="section_padding port_section" id="portfolio">
         <div class="container">
-            <h2 class="title">Portifólio</h2>
+            <h2 class="title">Portfólio</h2>
         </div>
         <div class="container portfolio">
             <ul class="tab_li">
                 <li data-target="all" class="active"><span class="ion-md-apps"></span><span>Todos</span></li>
                 <li data-target="site"><span class="ion-logo-html5"></span><span>Website</span></li>
                 <li data-target="apps"><span class="ion-ios-phone-portrait"></span><span>Aplicativos</span></li>
-                <li data-target="system"><span class="ion-ios-desktop"></span><span>Sistema de Gestão Escolar</span>
+                <li data-target="system"><span class="ion-ios-school"></span><span>Sistema de Gestão Escolar</span>
                 </li>
                 <li data-target="seo"><span class="ion-md-megaphone"></span><span>Marketing e Publicidade</span></li>
             </ul>
             <article class="art all site">
                 <a>
-                    <img src="images/logo_type.png">
+                    <img src="<?=$URL?>images/logo_type.png">
                 </a>
             </article>
             <article class="art all app">
                 <a>
-                    <img src="images/mama.png">
+                    <img src="<?=$URL?>images/mama.png">
                 </a>
             </article>
             <article class="art all system">
                 <a>
-                    <img src="images/logo_type.png">
+                    <img src="<?=$URL?>images/logo_type.png">
                 </a>
             </article>
         </div>
-
-
-
     </section>
-    <section class="section_padding course_page ">
+    <section class="section_padding course_page"  id="contacto">
         <div class="container">
             <div class="courses_page__text">
                 <h2>Contactos</h2>
@@ -346,7 +338,7 @@
                         <span class="ion-ios-mail"></span>&nbsp;
                         Enviar
                     </button>
-                    <img src="images/load.gif" title="loading">
+                    <img src="<?=$URL?>images/load.gif" title="loading">
                 </form>
             </div>
         </div>

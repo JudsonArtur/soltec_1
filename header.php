@@ -2,7 +2,7 @@
     <div class="main_header_menu">
         <div class="container">
             <h1 class="logo">
-                <a href="">
+                <a onclick="start()">
                  <img src="images/logo.png"  title="Solunave" alt="Solunava"/>
                 </a>
             </h1>
@@ -10,9 +10,9 @@
                 <ul>
                     <li><a  onclick="somos()">Quem somos</a></li>
                     <li><a onclick="services()">Soluções</a></li>
-                    <li><a onclick="contacto()">Marcas</a></li>
-                    <li><a  onclick="somos()">Parceiros</a></li>
-                    <li><a onclick="services()">Portifólio</a></li>
+                    <li><a onclick="marcas()">Marcas</a></li>
+                    <li><a  onclick="parceiros()">Parceiros</a></li>
+                    <li><a onclick="portfolio()">Portfólio</a></li>
                     <li><a onclick="contacto()">Contactos</a></li>
 
                 </ul>

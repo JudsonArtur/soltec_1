@@ -82,8 +82,13 @@ $(document).ready(function() {
     });
 });
 
-function services() {
-    var elmnt = document.getElementById("services");
+
+
+
+
+
+function start() {
+    var elmnt = document.getElementById("start");
     elmnt.scrollIntoView({ behavior: "smooth" });
 }
 
@@ -92,12 +97,27 @@ function somos() {
     elmnt.scrollIntoView({ behavior: "smooth" });
 }
 
-function contacto() {
-    var elmnt = document.getElementById("contacto");
+function services() {
+    var elmnt = document.getElementById("services");
     elmnt.scrollIntoView({ behavior: "smooth" });
 }
 
-function start() {
-    var elmnt = document.getElementById("start");
+function marcas() {
+    var elmnt = document.getElementById("marcas");
+    elmnt.scrollIntoView({ behavior: "smooth" });
+}
+
+function parceiros() {
+    var elmnt = document.getElementById("parceiros");
+    elmnt.scrollIntoView({ behavior: "smooth" });
+}
+
+function portfolio() {
+    var elmnt = document.getElementById("portfolio");
+    elmnt.scrollIntoView({ behavior: "smooth" });
+}
+
+function contacto() {
+    var elmnt = document.getElementById("contacto");
     elmnt.scrollIntoView({ behavior: "smooth" });
 }

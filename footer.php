@@ -6,8 +6,8 @@
     </div>
 
 </footer>
-<script src="js/jquery.js"></script>
-<script src="js/scripts.js"></script>
+<script src="<?=$URL?>js/jquery.js"></script>
+<script src="<?=$URL?>js/scripts.js"></script>
 </body>
 
 </html>

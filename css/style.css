@@ -286,43 +286,6 @@ p iframe {
     margin-bottom: 20px;
 }
 
-.habilty .hability_body {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px 0;
-    justify-content: center;
-}
-
-.habilty article {
-    flex-basis: calc(33.333% - 20px);
-    padding: 10px;
-    position: relative;
-    margin: 1% .7%;
-    cursor: pointer;
-    min-height: 150px;
-}
-
-.habilty article img {
-    margin: 0 auto;
-    display: block;
-}
-
-.habilty article h2 {
-    color: #555;
-    text-align: center;
-    line-height: 35px;
-    font-size: 1.6rem;
-    margin: 20px 0 10px 0;
-}
-
-.habilty article p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.4;
-    text-align: center;
-}
-
 .numbers.container {
     justify-content: center;
 }
@@ -330,15 +293,24 @@ p iframe {
 .numbers_body {
     display: flex;
     margin: auto;
+    width: 80%;
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 .numbers_body li {
     padding: 6px 40px;
-    color: #000;
-    background: #e2f0d9;
-    border-left: 1px solid #000;
+    color: #fff;
+    background: #222;
+    border-left: 1px solid #999;
+    flex: 1;
+    display: flex;
     text-align: center;
-    border-bottom: 1px solid #000;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .numbers_body li:nth-of-type(1) {
@@ -358,7 +330,7 @@ p iframe {
 
 .numbers_body li>span {
     font-size: .85rem;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 .numbers_body li>strong {
@@ -366,8 +338,9 @@ p iframe {
 }
 
 .apresentation_text {
-    flex-basis: calc(50%);
-    padding-top: 70px;
+    flex-basis: calc(55%);
+    padding: 50px 10px 10px 10px;
+    text-align: justify;
 }
 
 .apresentation_text h2 {
@@ -393,7 +366,7 @@ p iframe {
 .apresentatiom_img img {
     width: 90%;
     margin: 20px 0;
-    border: 15px solid #666
+    border: 1px solid #888
 }
 
 .who_are_text {
